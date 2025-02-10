@@ -1,12 +1,10 @@
 # ZestTerm
 
-
-
 ZestTerm is a simple terminal application written in Rust. It allows users to input and execute shell commands directly from the terminal. The project demonstrates basic Rust programming concepts such as handling user input, string manipulation, and process management.
 
 ## Features
 
-- **Interactive Prompt:** Continuously reads user input and displays a prompt (`> `).
+- **Interactive Prompt:** Continuously reads user input and displays a prompt (`>`).
 - **Command Parsing:** Splits the input into commands and supports piping using the `|` operator.
 - **Built-in Commands:**  
   - `cd`: Changes the current working directory.
@@ -16,6 +14,7 @@ ZestTerm is a simple terminal application written in Rust. It allows users to in
   - Supports piping between commands by redirecting standard input and output.
 - **Error Handling:**  
   - Prints error messages to standard error if commands fail to execute or if there are issues with process management.
+
 
 ## Getting Started
 
