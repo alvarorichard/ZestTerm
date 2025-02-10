@@ -27,24 +27,25 @@ ZestTerm is a simple terminal application written in Rust. It allows users to in
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/alvarorichard/ZestTerm
-  cd ZestTerm
-    ```
+```bash
+git clone https://github.com/alvarorichard/ZestTerm
+ ```
 2. **Build the project:**
 
-   ```bash
-   cargo build --release
-   ```
+```bash
+cargo build --release
+```
 3. **Run the application:**
 
-   ```bash
-    ./target/release/zestterm
-    ```
- or directly run the application using cargo:
-   ```bash
-   cargo run
-   ```
+```bash
+./target/release/zestterm
+ ```
+
+or directly run the application using cargo:
+
+```bash
+cargo run
+```
 
 Example usage:
 ```bash
